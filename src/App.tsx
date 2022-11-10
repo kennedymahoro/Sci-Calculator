@@ -1,9 +1,9 @@
 function App(): JSX.Element {
   return (
     <div>
-      <div className="grid">
-        <div>125</div>
-        <button>clear</button>
+      <div className="grid grid-cols-4">
+        <div className="col-span-full w-32 ">125</div>
+        <button className="col-span-2">clear</button>
         <button>del</button>
         <button>+</button>
         <button>1</button>
@@ -20,7 +20,7 @@ function App(): JSX.Element {
         <button>/</button>
         <button>.</button>
         <button>0</button>
-        <button>=</button>
+        <button className="col-span-2">=</button>
       </div>
     </div>
   );
