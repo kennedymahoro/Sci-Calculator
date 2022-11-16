@@ -1,7 +1,7 @@
 function App(): JSX.Element {
   return (
-    <div>
-      <div className="w-16">
+    <div className="flex justify-center items-center">
+      <div className="w-20">
         <div className="grid grid-cols-4">
           <div className="col-span-full w-32 ">125</div>
           <button className="col-span-2">clear</button>
